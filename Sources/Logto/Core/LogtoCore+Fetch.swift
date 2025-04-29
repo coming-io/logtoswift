@@ -138,6 +138,7 @@ public extension LogtoCore {
         userInfoEndpoint: String,
         accessToken: String
     ) async throws -> UserInfoResponse {
+        print("In here")
         try await LogtoRequest.get(
             useSession: session,
             endpoint: userInfoEndpoint,
