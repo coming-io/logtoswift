@@ -129,7 +129,7 @@ public extension LogtoCore {
         public let roles: [String]?
         public let organizations: [String]?
         public let organizationRoles: [String]?
-        public let customData: [String: String]?
+        public let customData: JsonObject?
         public let identities: JsonObject?
     }
 
